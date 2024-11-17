@@ -1,0 +1,36 @@
+{
+	"name": "damms005/laravel-personalised-email-sender",
+	"description": "Quickly send customized emails from Excel or CSV files: Vue powered!",
+	"authors": [
+		{
+			"name": "Damilola Olowookere",
+			"email": "damms005@gmail.com"
+		}
+	],
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true
+	},
+	"require": {
+		"php": "^7.1.3"
+	},
+	"require-dev": {
+		"nunomaduro/collision": "^2.0",
+		"phpunit/phpunit": "^7.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Damms005\\LaravueMailer\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Damms005\\LaravueMailer\\LaravueMailerServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
