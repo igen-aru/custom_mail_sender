@@ -1,4 +1,4 @@
-MailWave - Smart Email Campaign Manager
+###MailWave - Smart Email Campaign Manager
 MailWave is an advanced email-sending application designed to simplify email campaign management. Built with Django, Celery, and WebSocket technologies, it provides customizable email templates, real-time tracking, scheduling, and seamless integration with ESPs like SendGrid.
 
 Features
